@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>    
+	<class name="com.xtgj.j2ee.chapter06.entity.JD" table="TBL_JD" schema="dbo" catalog="zf" >
+        <id name="jdid" column="jdid" type="java.lang.Integer"/>
+        <property name="jd" column="jd" type="java.lang.String" not-null="false"/>
+        
+    </class>   
+</hibernate-mapping>
